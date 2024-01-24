@@ -4,6 +4,7 @@
     align-items: center;
     margin-bottom: 45px;
     border-radius: 15px;
+    width: 90%;
     @media screen and (max-width:768px){
         flex-direction: column;
     }
