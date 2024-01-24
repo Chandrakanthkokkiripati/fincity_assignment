@@ -1,0 +1,102 @@
+.projects-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  min-height: 70vh;
+}
+.project-heading {
+  color: #111111;
+  font-size: 24px;
+  font-family: "san serif";
+  font-weight: 600;
+}
+.projects-bg-container hr {
+  background-color: rgb(253, 196, 53);
+  height: 4px;
+  width: 70px;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+.form-container {
+  background-color: #f9faff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px 0;
+  @media screen and (max-width:768px){
+    width: 100%;
+}
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.label {
+  font-size: 15px;
+  color: #25282b;
+  padding-bottom: 5px;
+}
+.input-field {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #25282b;
+  height: 25px;
+  outline: none;
+  padding: 7px;
+  font-size: 15px;
+  @media screen and (max-width:768px){
+    width: 90vw;
+}
+}
+
+.textarea-field{
+    border: 1px solid #25282b;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    padding: 5px;
+    color: #111111;
+    @media screen and (max-width:768px){
+      width: 90vw;
+  }
+}
+
+.submit-btn{
+    background-color: rgb(253, 196, 53);
+    color: #111111;
+    align-self: flex-end;
+    border: none;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    @media screen and (max-width:768px){
+      width: 100%;
+  }
+}
+.project-list-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  @media screen and (max-width:768px){
+    padding-left: 20px;
+}
+}

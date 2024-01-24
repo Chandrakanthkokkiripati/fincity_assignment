@@ -1,0 +1,13 @@
+.contacts-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.contact-icon{
+    margin-right: 10px;
+}
+.contacts-bg-container p{
+    color: #828282;
+}
