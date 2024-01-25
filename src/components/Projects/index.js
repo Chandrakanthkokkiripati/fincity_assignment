@@ -52,18 +52,18 @@ class Projects extends Component {
 
   submitProjectDetails = (event) => {
     event.preventDefault();
-    const { inputProjectName, inputProjectLink, inputProjectDescription } =
+    const { inputProjectName, projectImgUrl, inputProjectDescription } =
       this.state;
     const projectDetails = {
       id: uuidv4(),
       projectName: inputProjectName,
-      projectLink: inputProjectLink,
+      projectImgUrl: projectImgUrl,
       projectDescription: inputProjectDescription,
     };
     this.setState((prevState) => ({
       projectList: [...prevState.projectList, projectDetails],
       projectName: "",
-      projectLink: "",
+      projectImgUrl: "",
       projectDescription: "",
     }));
   };
@@ -74,6 +74,7 @@ class Projects extends Component {
       inputProjectDescription,
       projectList,
     } = this.state;
+    console.log(this.state)
 
     return (
       <div className="projects-bg-container" id="projectsSection">
